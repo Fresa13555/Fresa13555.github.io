@@ -30,18 +30,18 @@ p {
     align-items: center;
     flex-direction: column;
     height: calc(100vh - 100px); /* Ajuste para ocupar el 100% del viewport menos el header */
+    text-align: center; /* Centra el texto dentro de la sección principal */
 }
 
 .content {
-    text-align: center;
     position: relative;
 }
 
 /* Reducción del tamaño de la imagen */
 .invitation-img {
-    max-width: 50%; /* Cambiar a 50% o ajustar según sea necesario */
+    max-width: 30%; /* Ajustado a un 30% para que sea más pequeña */
     height: auto;
-    margin-top: 20px; /* Espacio por encima de la imagen */
+    margin: 20px 0; /* Espacio por encima y por debajo de la imagen */
 }
 
 /* Estilo del botón */
@@ -54,8 +54,7 @@ p {
     text-decoration: none;
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
-    margin: 20px auto; /* Espacio en la parte superior e inferior */
-    text-align: center; /* Asegura que el texto esté centrado */
+    margin: 20px 0; /* Espacio en la parte superior e inferior */
 }
 
 .confirm-btn:hover {

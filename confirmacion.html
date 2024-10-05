@@ -7,25 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Confirma tu Asistencia</h1>
-    </header>
-    
-    <section class="form-section">
-        <form id="confirmation-form">
-            <label for="invitado">Selecciona tu nombre:</label>
-            <select id="invitado" name="invitado">
-                <!-- Los nombres se cargarán aquí desde el Excel -->
+    <div class="form-container">
+        <h2>Formulario de Confirmación a Evento</h2>
+        <p>Por favor, completa este formulario para confirmar tu asistencia.</p>
+
+        <form action="submit.html" method="post">
+            <label for="nombre">Nombre del invitado:</label>
+            <select id="nombre" name="nombre">
+                <option value="invitado1">Invitado 1</option>
+                <option value="invitado2">Invitado 2</option>
+                <!-- Agrega más opciones según tu lista de invitados -->
             </select>
 
-            <div id="detalles-invitado">
-                <!-- Detalles del invitado seleccionado -->
-            </div>
+            <label for="invitados">Invitados a nombre de:</label>
+            <p id="invitados-descripcion">Invitados: Invitado 1, Invitado 2</p>
 
-            <button type="button" onclick="confirmarAsistencia()">Confirmar asistencia</button>
+            <button type="submit" class="submit-btn">Confirmar asistencia</button>
         </form>
-    </section>
-
-    <script src="script.js"></script>
+    </div>
 </body>
 </html>

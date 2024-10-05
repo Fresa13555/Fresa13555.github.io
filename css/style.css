@@ -54,12 +54,14 @@ p {
     position: relative;
 }
 
+/* Reducción del tamaño de la imagen */
 .invitation-img {
-    max-width: 100%;
+    max-width: 70%; /* Cambiar a 70% o ajustar según sea necesario */
     height: auto;
     margin-bottom: 20px;
 }
 
+/* Estilo del botón */
 .confirm-btn {
     display: inline-block;
     padding: 15px 30px;
@@ -69,8 +71,8 @@ p {
     text-decoration: none;
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
-    position: relative;
-    top: -50px; /* Ajusta la posición del botón para que esté sobre la imagen */
+    margin: 20px auto; /* Espacio en la parte superior e inferior */
+    text-align: center; /* Asegura que el texto esté centrado */
 }
 
 .confirm-btn:hover {

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Asistencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Confirma tu Asistencia</h1>
+    </header>
+    
+    <section class="form-section">
+        <form id="confirmation-form">
+            <label for="invitado">Selecciona tu nombre:</label>
+            <select id="invitado" name="invitado">
+                <!-- Los nombres se cargarán aquí desde el Excel -->
+            </select>
+
+            <div id="detalles-invitado">
+                <!-- Detalles del invitado seleccionado -->
+            </div>
+
+            <button type="button" onclick="confirmarAsistencia()">Confirmar asistencia</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

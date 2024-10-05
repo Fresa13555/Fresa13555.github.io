@@ -54,11 +54,16 @@ p {
     position: relative;
 }
 
+/* Título y botón de confirmación */
+h2 {
+    margin: 20px 0; /* Espacio alrededor del título */
+}
+
 /* Reducción del tamaño de la imagen */
 .invitation-img {
-    max-width: 70%; /* Cambiar a 70% o ajustar según sea necesario */
+    max-width: 50%; /* Cambiar a 50% o ajustar según sea necesario */
     height: auto;
-    margin-bottom: 20px;
+    margin-top: 20px; /* Espacio por encima de la imagen */
 }
 
 /* Estilo del botón */

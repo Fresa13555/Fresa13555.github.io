@@ -11,7 +11,7 @@ function cargarInvitados() {
             var firstSheet = workbook.Sheets[workbook.SheetNames[0]];
             var invitadoData = XLSX.utils.sheet_to_json(firstSheet);
 
-            var select = document.getElementById('Nombre');
+            var select = document.getElementById('invitado');
             invitadoData.forEach(invitado => {
                 var option = document.createElement('option');
                 option.text = invitado.Nombre;
